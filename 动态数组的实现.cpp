@@ -4,7 +4,7 @@
 
 int main()
 {
-     int *array = 0, num, i;
+     int *array = NULL, num, i;
      printf("please input the number of element: ");
      scanf("%d", &num);
      // 申请动态数组使用的内存块
